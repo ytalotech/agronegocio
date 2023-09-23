@@ -38,3 +38,11 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 # Ajuda para instalar o next e fazer o deploy no github pages
 https://www.youtube.com/watch?v=WoL3xbkAfOU&ab_channel=AyyazTech
+
+# GitHub pages
+-> No repositorio iremos em settings
+-> Selecionamos no menu lateral Pages
+-> Em source selecionaremos gitHub Actions
+-> Onde irá exibir para configurar o next, e clicamos
+-> Ele irá criar um arquivo de configuração, ai temos que comitar esse arquivo do jeito que foi criado
+-> Automaticamente começa o deploy
