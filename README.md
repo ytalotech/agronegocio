@@ -46,3 +46,7 @@ https://www.youtube.com/watch?v=WoL3xbkAfOU&ab_channel=AyyazTech
 -> Onde irá exibir para configurar o next, e clicamos
 -> Ele irá criar um arquivo de configuração, ai temos que comitar esse arquivo do jeito que foi criado
 -> Automaticamente começa o deploy
+
+AJuda autenticar no git
+
+https://stackoverflow.com/questions/68775869/message-support-for-password-authentication-was-removed
