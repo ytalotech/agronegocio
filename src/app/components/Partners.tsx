@@ -1,5 +1,5 @@
 import { CheckIcon } from '@heroicons/react/20/solid'
-import Image from 'next/image'
+// import Image from 'next/image'
 
 const informationsPartners = [
   {
@@ -67,7 +67,8 @@ export default function Partners() {
             <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
               <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16">
                 <div className="mx-auto max-w-xs px-8">
-                  <Image src="/images/caju.jpeg" className='w-full' width={120} height={120} alt='Sitio Matheus' unoptimized={true} />
+                  {/* <Image src="/images/caju.jpeg" className='w-full' width={120} height={120} alt='Sitio Matheus' /> */}
+                  <img src="/images/caju.jpeg" alt="" className="w-full" />
                   <a
                     href={`https://wa.me/55${information.whatsapp}`}
                     className="mt-10 block w-full rounded-md bg-green-600 px-3 py-2 text-center text-sm font-semibold text-white shadow-sm hover:bg-green-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-green-600"

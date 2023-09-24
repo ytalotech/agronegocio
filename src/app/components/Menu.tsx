@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { Disclosure } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline';
-import Image from 'next/image';
+// import Image from 'next/image';
 
 const navigation = [
   { name: 'Parceiros', href: '#partner', current: false },
@@ -57,7 +57,8 @@ export default function Menu() {
                 <div className="flex h-16 items-center justify-between">
                   <div className="flex items-center">
                     <div className="flex-shrink-0">
-                      <Image src="/images/logo.svg" className='' width={100} height={100} alt='Sitio Matheus' unoptimized={true} />
+                      {/* <Image src="/images/logo.svg" className='' width={100} height={100} alt='Sitio Matheus' /> */}
+                      <img src="/images/logo.svg" alt="" width={100} height={100} />
                     </div>
                     <div className="hidden md:block">
                       <div className="ml-10 flex items-baseline space-x-4">
