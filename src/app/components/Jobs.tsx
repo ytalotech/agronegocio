@@ -1,7 +1,7 @@
 const posts = [
   {
     id: 1,
-    title: 'Apanhador de castanha de caju',
+    title: 'Exemplo: Apanhador de castanha de caju',
     href: '#',
     description:
       'Estamos pagando uma diaria de 50,00 para apanha castanha de caju.',
@@ -10,25 +10,7 @@ const posts = [
     category: { title: 'Agricultura' },
     localization: 'Palmeira, Beberibe-CE',
     author: {
-      name: 'Sitio Matheus',
-      role: 'Responsável',
-      whatsapp: '85982380314',
-      imageUrl:
-        'https://mambodelivery.vtexassets.com/arquivos/ids/160678/caju-bandeja-300g.jpg?v=637883146595800000',
-    },
-  },
-  {
-    id: 2,
-    title: 'Apanhador de castanha de caju',
-    href: '#',
-    description:
-      'Estamos pagando uma diaria de 50,00 para apanha castanha de caju.',
-    date: '23 de fevereiro, 2023',
-    datetime: '23/09/2023',
-    category: { title: 'Agricultura' },
-    localization: 'Palmeira, Beberibe-CE',
-    author: {
-      name: 'Sitio Matheus',
+      name: 'Sitio',
       role: 'Responsável',
       whatsapp: '85982380314',
       imageUrl:
